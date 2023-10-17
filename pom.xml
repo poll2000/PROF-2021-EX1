@@ -7,6 +7,25 @@
   <groupId>es.upm.grise.profundizacion.2021</groupId>
   <artifactId>control-1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.10.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<version>5.10.0</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
 
   <name>control-1</name>
   <description>Proyecto para la realización del control 1</description>
